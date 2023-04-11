@@ -79,7 +79,7 @@ def show_detected_images(img, bounding_box_ids, all_bounding_boxes, class_ids, c
 
 
 # read image
-image = cv2.imread('car.jpg')
+image = cv2.imread('data/car.jpg')
 original_width, original_height = image.shape[1], image.shape[0]
 
 # Class declaration

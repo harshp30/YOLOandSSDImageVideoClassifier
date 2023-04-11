@@ -74,7 +74,7 @@ def show_detected_objects(img, bounding_box_ids, all_bounding_boxes, class_ids, 
 
 
 # Capture the video as opposed to reading a image
-capture = cv2.VideoCapture('pedestrians.mp4')
+capture = cv2.VideoCapture('data/pedestrians.mp4')
 
 # Class declaration
 classes = ['person', 'car', 'bus']

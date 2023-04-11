@@ -16,7 +16,7 @@ SSD_INPUT_SIZE = 320
 '''
 Parse through the class_names txt file and extract the possible classes line by line
 '''
-def construct_class_names(file_name='class_names'):
+def construct_class_names(file_name='data/class_names'):
     with open(file_name, 'rt') as file:
         names = file.read().rstrip('\n').split('\n')
 
@@ -40,7 +40,7 @@ def show_detected_objects(img, boxes_to_keep, all_bounding_boxes, object_names, 
 class_names = construct_class_names()
 
 # read image
-image = cv2.imread('car.jpg')
+image = cv2.imread('data/car.jpg')
 
 # Configure DNN using Darknet and model config files
 neural_network = cv2.dnn_DetectionModel('ssd_weights.pb', 'ssd_mobilenet_coco_cfg.pbtxt')
