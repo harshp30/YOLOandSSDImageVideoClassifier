@@ -12,7 +12,7 @@
 
 ### Technical Explanation:
 
-1. YOLO Image Classification Implementation  -- [YOLOImage.py](LINK)
+1. YOLO Image Classification Implementation  -- [YOLOImage.py](https://github.com/harshp30/YOLOandSSDImageVideoClassifier/blob/main/src/YOLOImage.py)
 
     *What is You Only Look Once (YOLO)?*
 
@@ -108,7 +108,7 @@
     ![YOLO Cars](images/YOLOCarImage.png)
     
 
-2. YOLO Video Classification Implementation  -- [YOLOVideo.py](LINK)
+2. YOLO Video Classification Implementation  -- [YOLOVideo.py](https://github.com/harshp30/YOLOandSSDImageVideoClassifier/blob/main/src/YOLOVideo.py)
 
     Very similar to the YOLO Image implementation. There are just some syntax changes to help incorporate video .mp4 files rather then .jpg image files
 
@@ -121,7 +121,7 @@
     [![YOLO Video Demo](https://img.youtube.com/vi/dlotXouSNIk/maxresdefault.jpg)](https://www.youtube.com/watch?v=dlotXouSNIk&ab)
 
 
-3. SSD Image Classification Implementation  -- [SSDImage.py](LINK)
+3. SSD Image Classification Implementation  -- [SSDImage.py](https://github.com/harshp30/YOLOandSSDImageVideoClassifier/blob/main/src/SSDImage.py)
 
     *What is Single-Shot MultiBox Detector (SSD)?*
 
@@ -198,7 +198,7 @@
 
     ![SSD Person](images/SSDPersonImage.png)
 
-4. SSD Video Classification Implementation  -- [SSDVideo.py](LINK)
+4. SSD Video Classification Implementation  -- [SSDVideo.py](https://github.com/harshp30/YOLOandSSDImageVideoClassifier/blob/main/src/SSDVideo.py)
 
     Very similar to the SSD Image implementation. There are just some syntax changes to help incorporate video .mp4 files rather then .jpg image files
 
@@ -218,6 +218,7 @@
 ### Next Steps:
 
 - Expand classififcation classes for image implementation
+- Integrate CUDA to train on GPU as opposed to CPU
 
 ---
 
